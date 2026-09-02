@@ -1,6 +1,6 @@
 # AI RAG Document Assistant
 
-A containerized, multi-document Retrieval-Augmented Generation (RAG) platform built with **Python, FastAPI, Docling, Sentence Transformers, ChromaDB, CrossEncoder reranking, Ollama, Redis, PostgreSQL, RQ, Ragas, Prometheus, Grafana, and Docker Compose**.
+A containerized, document Retrieval-Augmented Generation (RAG) platform built with **Python, FastAPI, Docling, Sentence Transformers, ChromaDB, CrossEncoder reranking, Ollama, Redis, PostgreSQL, RQ, Ragas, Prometheus, Grafana, and Docker Compose**.
 
 The system allows users to upload multiple documents, retrieve relevant information across their uploaded documents, generate answers using a local LLM, cache responses, persist application data, and asynchronously evaluate generated answers for **Faithfulness** using Ragas.
 
