@@ -348,7 +348,7 @@ Redis
 
 Redis is therefore used to avoid unnecessarily repeating the RAG generation process for previously answered questions.
 
-![Cached Answer](images/cached_answer.png)
+![Cached Answer](images/cached-answer.png)
 
 ![Cache Hit](images/cache_hit.png)
 
@@ -650,6 +650,8 @@ Example dashboard screenshots are included in the repository.
 ---
 
 # Docker Architecture
+
+![Docker Containers](images/containers.png)
 
 The project uses Docker Compose to run the supporting infrastructure.
 
