@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded documents
+data/uploads/
+data/embeddings/ 
+data/parsed/ 
+data/uploads/
+
+# Local vector database
+chroma_db/
+chroma_data/
+data/vectorstore/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+
+# Temporary files
+tmp/
+temp/
+
+# Docker
+*.pid
+
+# Ragas / generated files
+.cache/
