@@ -1,4 +1,4 @@
-# Multi-Document RAG Platform
+# AI RAG Document Assistant
 
 A containerized, multi-document Retrieval-Augmented Generation (RAG) platform built with **Python, FastAPI, Docling, Sentence Transformers, ChromaDB, CrossEncoder reranking, Ollama, Redis, PostgreSQL, RQ, Ragas, Prometheus, Grafana, and Docker Compose**.
 
